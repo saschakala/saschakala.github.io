@@ -27,11 +27,11 @@ The more that time passed the more it became apparent to me that the life I want
 
 I've done a lot of things over the years. My employment has usually been a rag-tag combination of freelance artsy sh!t (illustration, photography, content creation, writing, graphic design) made possible by service industry tips. I've been working in service in some capacity since I was a teen and it's always been my fallback option. But then the playing field changed (see again: global pandemic.)
 
-But as I embark upon this new decade of my life (I turned 30 in November), all of that seems increasingly unstable - because it is. And we've reached bullet point number 3: **becoming responsible in my old age**.
+As I embark upon this new decade of my life (I turned 30 in November), all of that seems increasingly unstable - because it is. And so we've reached bullet point number 3: **becoming responsible in my old age**.
 
-The more I mulled it over, considered my own strengths and shortcomings as a person, and deliberated about my future and what I wanted out of life, the more decided I felt about pursuing a career as a software engineer.
+The more I mulled it over, considered my own personal strengths and weaknesses, and deliberated about my future and what I wanted out of life, the more decided I felt about pursuing a career as a software engineer.
 
-I'm an introvert. I always have been. I absolutely can wait on tables and be the bubbliest, most hospitable server or retail employee you've ever met, but I would much rather not.
+I'm an introvert. I always have been. I absolutely can wait on tables and be the bubbliest, most hospitable server or retail employee you've ever met, but I would much rather not. (Learned extroversion is my special talent.)
 
 I also am in love with computers. I always have been. I love gaming, but not in the "typical" gaming on a Nintento or PS2 kind of way. As a child I would play Type to Learn and Mavis Beacon at home on the weekends for kicks. I also knew that I enjoyed coding. In 6th grade part of our curriculum was an incredibly elementary introduction to code. I liked it. I'm detail-oriented. It was thrilling. (Again, Mavis Beacon was my version of a high-stakes video game so...that's the baseline here.)
 
