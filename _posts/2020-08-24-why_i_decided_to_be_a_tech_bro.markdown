@@ -38,7 +38,7 @@ I also am in love with computers. I always have been. I love gaming, but not in 
 Now we've unearthed bullet points number 4 and 5: **introvert to the core** and **it's fun**.
 
 
-And now you know all the reasons I decided to become a tech bro. 
+And now you know all the reasons I decided to become a tech bro (or, rather, why I'm studying to be a software engineer).
 
 
 
