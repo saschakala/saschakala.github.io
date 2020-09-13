@@ -78,14 +78,18 @@ Scraping works in this circumstance because you can iterate over each instance t
 
 * If the site appeared scrapable I would set a `class variable` equal to the `url`, create a new method and then go about targeting the parent class. 
 
-> `def self.scrape_new
-> doc = Nokogiri::HTML(open(URL))
-> binding.pry
-> end`
+```
+def self.scrape_new
+doc = Nokogiri::HTML(open(URL))
+binding.pry
+end
+```
 
 I discovered that an easy way for me to test scrapability was to use
 
-`doc.css("target-attributes-for-parent-tier").css("target-attributes-for-name").text`
+```
+doc.css("target-attributes-for-parent-tier").css("target-attributes-for-name").text
+```
 
 because, if it worked, my code was set up for me to copy/paste the initial `.css` target and the `.css` target that I'd pass through in the block to acquire/set the name. (The same thing worked for all the other variables.)
 
