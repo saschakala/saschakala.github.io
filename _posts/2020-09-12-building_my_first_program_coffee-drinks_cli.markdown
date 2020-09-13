@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Building my first program, coffee-drinks CLI"
-date:       2020-09-12 22:28:01 +0000
+date:       2020-09-12 18:28:02 -0400
 permalink:  building_my_first_program_coffee-drinks_cli
 ---
 
@@ -78,10 +78,10 @@ Scraping works in this circumstance because you can iterate over each instance t
 
 * If the site appeared scrapable I would set a `class variable` equal to the `url`, create a new method and then go about targeting the parent class. 
 
-`def self.scrape_new
-doc = Nokogiri::HTML(open(URL))
-binding.pry
-end`
+> `def self.scrape_new
+> doc = Nokogiri::HTML(open(URL))
+> binding.pry
+> end`
 
 I discovered that an easy way for me to test scrapability was to use
 
