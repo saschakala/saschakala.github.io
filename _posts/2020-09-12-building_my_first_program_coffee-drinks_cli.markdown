@@ -31,7 +31,7 @@ Plus, after immersing myself in the structure of my files and buildling a progra
 
 ### Getting the Bundler file to work
 
-1. `chmod` 
+1) `chmod` 
 
 Using `ls -lah` I discovered that the run file I created didn't have executable permissions, meaning I could only read and write it but not run it. There are two ways I could've fixed this:
 
@@ -44,7 +44,7 @@ Using `ls -lah` I discovered that the run file I created didn't have executable 
 I used `chmod 777` to set the permissions on my run file.
 
 
-2. `Gem::InvalidSpecificationException`
+2) `Gem::InvalidSpecificationException`
 
 It was this error initially that caused me to ditch the Bundler file for the project file I had created. I googled around and wasn't able to find a solution that didn't seem very complex and over my head. 
 
