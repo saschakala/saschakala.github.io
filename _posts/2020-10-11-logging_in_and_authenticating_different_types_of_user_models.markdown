@@ -14,7 +14,7 @@ permalink:  logging_in_and_authenticating_different_types_of_user_models
 
 Once I had the initial MVC model down I decided that, instead of the "Artist" column being a static value, I would create a has-many-through relationship using the `tattoos` table as the join. 
 
-So I created the model, controller, and views folder for **Artists** and set about connecting them. I created new `helper` methods for the Artist class. Now I had `user_logged_in?` and `artist_logged_in?` as well as `logged_in?` which showed me if either type of account was logged in.
+So I created the model, controller, and views folder for **Artists** and set about connecting them to the rest of my app. I created new `helper` methods for the Artist class. Now I had `user_logged_in?` and `artist_logged_in?` as well as `logged_in?` which showed me if either type of account was logged in. I also had both `current_user` and  `current_artist`, as well as `redirect_if_not_logged_in` and `redirect_if_logged_in`, both of which used the `logged_in?` helper method.
 
 I was intent on both types of account holders being able to use the same login page, which meant playing around with the `sessions_controller` to create a conditional that allowed this to work.
 
