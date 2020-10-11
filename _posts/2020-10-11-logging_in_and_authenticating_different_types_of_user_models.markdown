@@ -43,10 +43,7 @@ Initially I nested a conditional within a case statement:
     end
 ```
 
-It seemed to work until I entered a username that wasn't in the database and ended up on a blank page because my `when` statements only account for circumstances where the username exists but the password is incorrect. So, I played around in `pry` and discovered 
-
-
-After playing around in `pry` for a while this is what I settled on:
+It seemed to work until I entered a username that wasn't in the database and ended up on a blank page because my `when` statements only accounted for circumstances where the username existed but the password was incorrect. So, I played around in `pry`  for a while and settled on:
 
 ```
     post '/login' do
@@ -66,7 +63,7 @@ After playing around in `pry` for a while this is what I settled on:
 ```
 
 
-The biggest issue I had with multiple user models logging in was actually in the act of logging in - or adding the `user_id` to the `session` hash. What I mean by this is that for a while, whenever I'd log in an *artist*, the program would get so far as to match the correct account and authenticate the *artist*, but would then log in the *user* with the matching id number. (I followed each step of the login process in `pry` to see exactly where the disconnect was.)
+The biggest issue I had with multiple user models logging in was actually in the act of logging in - or adding the `user.id` to the `session` hash. What I mean by this is that for a while, whenever I'd log in an *artist*, the program would get so far as to match the correct account and authenticate the *artist*, but would then log in the *user* with the matching id number. (I followed each step of the login process in `pry` to see exactly where the disconnect was.)
 
 WHY. I spent a few hours trying to figure it out, troubleshooting high and low on Google, and actually reverted my project back to a simple "has-many" and "belongs-to" MVC before realizing that my problem had a 2 character solution. (I hadn't pushed the changes to github, for the record, and then had to recreate the has-many-through relationship from scratch: and so this project has also been an invaluable lesson in commiting regularly and often.)
 
