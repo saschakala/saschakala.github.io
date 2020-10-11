@@ -10,7 +10,7 @@ permalink:  logging_in_and_authenticating_different_types_of_user_models
 * commit regularly and often
 * the `[user_id]` key used for adding the user's id to a session in order to log them in is a stand in for whatever the name of your user model is (yes, I learned this the *very hard* way)
 
-#### My Sinatra portfolio project inadvertently turned into a low-grade social media app for connecting people who have tattoos (users) with those who create tattoos (artists). 
+****My Sinatra portfolio project inadvertently turned into a low-grade social media app for connecting people who have tattoos (users) with those who create tattoos (artists). 
 
 Once I had the initial MVC model down I decided that, instead of the "Artist" column being a static value, I would create a has-many-through relationship using the `tattoos` table as the join. 
 
